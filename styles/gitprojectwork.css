@@ -1,0 +1,38 @@
+body {
+     background-image: url("http://cdn.wallpapersafari.com/23/20/VIJ1Pc.jpg");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     color: white;
+}
+.navbar{
+    font-family: 'Orbitron', sans-serif;
+    top:0;
+    margin-bottom:30px;
+    margin-top:30px;
+    width: 100%;
+    text-align: center;
+    }
+#content{
+     margin-top: 50px;
+     position: absolute;
+     width:600px;
+     left:30.5%;
+     text-align: center;
+     font-family: 'Orbitron', sans-serif;
+}
+#contenttable{
+    margin-top:50px;
+    padding-left: 50px;
+}
+#select{
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    border-radius: 12px;
+    border: none;
+    background-color: #0043ff;
+    transition-duration: 1s;
+    padding: 1px 80px;
+}
+#select:hover{
+    background-color: #f40909;
+}
