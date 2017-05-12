@@ -1,11 +1,14 @@
 Sziasztok,
 
-Amit beszéltünk akkor emlékeim szerint:
-1. Keresés 2 legördülõ lista alapján - ezt html-ben megcsináltam de nincs mögötte semmi
-2. Elõre létrehoztam a mappaszerkezetet de módosítsátok nyugodtan, meg a fájlokat is meg bármit
-3. Kéne akkor a keresésre függvény - ezt beszéltük Márknak
-4. Adrián CSS ha jól emlékszem?
-5. Bence megcsinálhatná, hogy legyen még egy oldal ahol a JSON adatbázisból ki lehet íratni táblázatban mindent, és akkor arra még lehet rendezõfüggvényeket alkamlazni
-- hogy azt ki csinálja meg nekem mindegy, akár én is megcsinálhatom holnap (a rendezõ függvényt magát) de ahogy érzitek
+Amit beszÃ©ltÃ¼nk akkor emlÃ©keim szerint:
+1. KeresÃ©s 2 legÃ¶rdÃ¼lÅ‘ lista alapjÃ¡n - ezt html-ben megcsinÃ¡ltam de nincs mÃ¶gÃ¶tte semmi
+2. ElÅ‘re lÃ©trehoztam a mappaszerkezetet de mÃ³dosÃ­tsÃ¡tok nyugodtan, meg a fÃ¡jlokat is meg bÃ¡rmit
+3. KÃ©ne akkor a keresÃ©sre fÃ¼ggvÃ©ny - ezt beszÃ©ltÃ¼k MÃ¡rknak
+4. AdriÃ¡n CSS ha jÃ³l emlÃ©kszem?
+5. Bence megcsinÃ¡lhatnÃ¡, hogy legyen mÃ©g egy oldal ahol a JSON adatbÃ¡zisbÃ³l ki lehet Ã­ratni tÃ¡blÃ¡zatban mindent, Ã©s akkor arra mÃ©g lehet rendezÅ‘fÃ¼ggvÃ©nyeket alkamlazni
+- hogy azt ki csinÃ¡lja meg nekem mindegy, akÃ¡r Ã©n is megcsinÃ¡lhatom holnap (a rendezÅ‘ fÃ¼ggvÃ©nyt magÃ¡t) de ahogy Ã©rzitek
 
-Módosítsátok ezt a txt-t is nyugodtan, sõt!
+MÃ³dosÃ­tsÃ¡tok ezt a txt-t is nyugodtan, sÅ‘t!
+
+UPDATE: ELkÃ©szÃ­tettem a fÅ‘oldalt, JavaScript, HTML Ã©s CSS kÃ©sz. NÃ©zzÃ©tek meg. Valaki lÃ©gyszi csinÃ¡lja meg, hogy a gombok mÅ±kÃ¶djenek.
+A lekÃ©rt informÃ¡ciÃ³ egy Ãºj felugrÃ³ DIV-ben jelenjen meg. Ha szeretnÃ©tek arra is megcsinÃ¡lom majd a CSS-t. AdriÃ¡n
