@@ -277,7 +277,7 @@ for ( var i = 0; i < starwars.length; i++) {
  document.getElementById("contenttable").innerHTML += '<tr><td>' +starwars[i].name+
  '</td><td> <select class="feltetelvalaszto"><option value="height">Magasság</option><option value="mass">Súly</option><option value="hair_color">Hajszín</option><option value="skin_color">Bőrszín</option>'+
  '<option value="eye_color">Szemszín</option><option value="birth_year">Születési év</option><option value="gender">Nem</option><option value="homeworld">Szülőbolygó</option> <option value="films">Film</option>'+
- ' <option value="species">Faj</option> <option value="vehicles">Jármű</option><option value="starships">Űrhajó</option></select></td><td><input type="button" value="Kiválaszt" id="select onclick="showProperty()"></td></tr>'}
+ ' <option value="species">Faj</option> <option value="vehicles">Jármű</option><option value="starships">Űrhajó</option></select></td><td><input type="button" value="Mutasd" id="select" onclick="showProperty()"></td></tr>'}
 
 //innen jöhet a függvény írása ami egy külön div-ben kiírja az adott tulajdonságot amit a név mellett kiválasztunk
  function showProperty(){}
