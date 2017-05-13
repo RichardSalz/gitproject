@@ -274,10 +274,298 @@ var starwars = [
 //szereplő neveinek kiírása gombokkal együtt DIV-be 
 
 for ( var i = 0; i < starwars.length; i++) {
- document.getElementById("contenttable").innerHTML += '<tr><td>' +starwars[i].name+
- '</td><td> <select class="feltetelvalaszto"><option value="height">Magasság</option><option value="mass">Súly</option><option value="hair_color">Hajszín</option><option value="skin_color">Bőrszín</option>'+
+ document.getElementById("contenttable").innerHTML += '<tr><td class="name'+i+'">' +starwars[i].name+
+ '</td><td> <select class="feltetelvalaszto" id="'+i+'edik'+'"><option value="height">Magasság</option><option value="mass">Súly</option><option value="hair_color">Hajszín</option><option value="skin_color">Bőrszín</option>'+
  '<option value="eye_color">Szemszín</option><option value="birth_year">Születési év</option><option value="gender">Nem</option><option value="homeworld">Szülőbolygó</option> <option value="films">Film</option>'+
- ' <option value="species">Faj</option> <option value="vehicles">Jármű</option><option value="starships">Űrhajó</option></select></td><td><input type="button" value="Mutasd" id="select" onclick="showProperty()"></td></tr>'}
+ ' <option value="species">Faj</option> <option value="vehicles">Jármű</option><option value="starships">Űrhajó</option></select></td><td><input type="button" value="Mutasd" id="select" onclick="show'+i+'Property()"></td></tr><br><div id=div'+i+' class="showResult none">x</div>'}
 
 //innen jöhet a függvény írása ami egy külön div-ben kiírja az adott tulajdonságot amit a név mellett kiválasztunk
- function showProperty(){}
+ 
+ 
+ 
+ 
+
+ 
+ function show0Property()
+ {
+ 
+ var div0=document.getElementById("div"+0+"");
+ div0.classList.remove("none");
+ div0.classList.add("inline-block");
+ div0.innerHTML="";
+
+ var select=document.getElementById("0edik").value;
+ var nev0=document.querySelector(".name"+0+"").innerText;
+ for(var j=0;j<starwars.length;j++){
+     for ( var k in starwars[j]) 
+       {
+
+        if(k===select && starwars[j].name==nev0)
+              {
+                 div0.innerHTML= starwars[j].name+'<br>'+select+": "+starwars[j][k];
+              }
+       }
+}
+
+ 
+console.log("workin'");
+
+ }
+
+
+ function show1Property()
+ {
+ 
+ var div1=document.getElementById("div"+1+"");
+ div1.classList.remove("none");
+ div1.classList.add("inline-block");
+ div1.innerHTML="";
+ 
+ var select=document.getElementById("1edik").value;
+ var nev1=document.querySelector(".name"+1+"").innerText;
+ for(var j=0;j<starwars.length;j++){
+     for ( var k in starwars[j]) 
+       {
+
+        if(k===select && starwars[j].name==nev1)
+              {
+                div1.innerHTML= starwars[j].name+'<br>'+select+": "+starwars[j][k];
+              
+              }
+       }
+}
+
+ 
+console.log("workin'");
+
+ }
+
+
+
+ function show2Property()
+ {
+ 
+ var div2=document.getElementById("div"+2+"");
+ div2.classList.remove("none");
+ div2.classList.add("inline-block");
+ div2.innerHTML="";
+ 
+ var select=document.getElementById("2edik").value;
+ var nev2=document.querySelector(".name"+2+"").innerText;
+ for(var j=0;j<starwars.length;j++){
+     for ( var k in starwars[j]) 
+       {
+
+        if(k===select && starwars[j].name==nev2)
+              {
+                div2.innerHTML= starwars[j].name+'<br>'+select+": "+starwars[j][k];
+              
+              }
+       }
+}
+
+ 
+console.log("workin'");
+
+ }
+
+
+
+ function show3Property()
+ {
+ 
+ var div3=document.getElementById("div"+3+"");
+ div3.classList.remove("none");
+ div3.classList.add("inline-block");
+ div3.innerHTML="";
+ 
+ var select=document.getElementById("3edik").value;
+ var nev3=document.querySelector(".name"+3+"").innerText;
+ for(var j=0;j<starwars.length;j++){
+     for ( var k in starwars[j]) 
+       {
+
+        if(k===select && starwars[j].name==nev3)
+              {
+                 div3.innerHTML= starwars[j].name+'<br>'+select+": "+starwars[j][k];
+              }
+       }
+}
+
+ 
+console.log("workin'");
+
+ }
+
+
+
+ function show4Property()
+ {
+ 
+ var div4=document.getElementById("div"+4+"");
+ div4.classList.remove("none");
+ div4.classList.add("inline-block");
+ div4.innerHTML="";
+ 
+ var select=document.getElementById("4edik").value;
+ var nev4=document.querySelector(".name"+4+"").innerText;
+ for(var j=0;j<starwars.length;j++){
+     for ( var k in starwars[j]) 
+       {
+
+        if(k===select && starwars[j].name==nev4)
+              {
+                 div4.innerHTML= starwars[j].name+'<br>'+select+": "+starwars[j][k];
+              
+              }
+       }
+}
+
+ 
+console.log("workin'");
+
+ }
+
+
+
+ function show5Property()
+ {
+ 
+ var div5=document.getElementById("div"+5+"");
+ div5.classList.remove("none");
+ div5.classList.add("inline-block");
+ div5.innerHTML="";
+ 
+ var select=document.getElementById("5edik").value;
+ var nev5=document.querySelector(".name"+5+"").innerText;
+ for(var j=0;j<starwars.length;j++){
+     for ( var k in starwars[j]) 
+       {
+
+        if(k===select && starwars[j].name==nev5)
+              {
+                div5.innerHTML= starwars[j].name+'<br>'+select+": "+starwars[j][k];
+              
+              }
+       }
+}
+
+ 
+console.log("workin'");
+
+ }
+
+
+
+ function show7Property()
+ {
+ 
+ var div7=document.getElementById("div"+7+"");
+ div7.classList.remove("none");
+ div7.classList.add("inline-block");
+ div7.innerHTML="";
+ text7=div7.innerText;
+ var select=document.getElementById("7edik").value;
+ var nev7=document.querySelector(".name"+7+"").innerText;
+ for(var j=0;j<starwars.length;j++){
+     for ( var k in starwars[j]) 
+       {
+
+        if(k===select && starwars[j].name==nev7)
+              {
+                 div7.innerHTML= starwars[j].name+'<br>'+select+": "+starwars[j][k];
+              
+              }
+       }
+}
+
+ 
+console.log("workin'");
+
+ }
+
+
+
+ function show6Property()
+ {
+ 
+ var div6=document.getElementById("div"+6+"");
+ div6.classList.remove("none");
+ div6.classList.add("inline-block");
+ div6.innerHTML="";
+ 
+ var select=document.getElementById("6edik").value;
+ var nev6=document.querySelector(".name"+6+"").innerText;
+ for(var j=0;j<starwars.length;j++){
+     for ( var k in starwars[j]) 
+       {
+
+        if(k===select && starwars[j].name==nev6)
+              {
+                 div6.innerHTML= starwars[j].name+'<br>'+select+": "+starwars[j][k];
+              
+              }
+       }
+}
+
+ 
+console.log("workin'");
+
+ }
+
+
+  function show8Property()
+ {
+ 
+ var div8=document.getElementById("div"+8+"");
+ div8.classList.remove("none");
+ div8.classList.add("inline-block");
+ div8.innerHTML="";
+ 
+ var select=document.getElementById("8edik").value;
+ var nev8=document.querySelector(".name"+8+"").innerText;
+ for(var j=0;j<starwars.length;j++){
+     for ( var k in starwars[j]) 
+       {
+
+        if(k===select && starwars[j].name==nev8)
+              {
+                 div8.innerHTML= starwars[j].name+'<br>'+select+": "+starwars[j][k];
+              
+              }
+       }
+}
+
+ 
+console.log("workin'");
+
+ }
+
+  function show9Property()
+ {
+ 
+ var div9=document.getElementById("div"+9+"");
+ div9.classList.remove("none");
+ div9.classList.add("inline-block");
+ div9.innerHTML="";
+ text9=div9.innerText;
+ var select=document.getElementById("9edik").value;
+ var nev9=document.querySelector(".name"+9+"").innerText;
+ for(var j=0;j<starwars.length;j++){
+     for ( var k in starwars[j]) 
+       {
+
+        if(k===select && starwars[j].name==nev9)
+              {
+                 div9.innerHTML= starwars[j].name+'<br>'+select+": "+starwars[j][k];
+              
+              }
+       }
+}
+
+ 
+console.log("workin'");
+
+ }
+
+

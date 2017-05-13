@@ -36,3 +36,33 @@ body {
 #select:hover{
     background-color: #f40909;
 }
+
+
+
+.showResult{
+
+    
+    height:100px;
+    width:400px;
+    background-color:green;
+    border:none;
+    border-radius:20px;
+    
+    
+
+}
+
+.none{
+      display:none;
+}
+
+.inline-block{
+
+    display: inline-block;
+}
+
+/*showResult{
+
+    display:none;
+    
+}*/
