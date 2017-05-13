@@ -1,4 +1,4 @@
-Sziasztok,
+﻿Sziasztok,
 
 Amit beszéltünk akkor emlékeim szerint:
 1. Keresés 2 legördülő lista alapján - ezt html-ben megcsináltam de nincs mögötte semmi
@@ -12,3 +12,5 @@ Módosítsátok ezt a txt-t is nyugodtan, sőt!
 
 UPDATE: ELkészítettem a főoldalt, JavaScript, HTML és CSS kész. Nézzétek meg. Valaki légyszi csinálja meg, hogy a gombok működjenek.
 A lekért információ egy új felugró DIV-ben jelenjen meg. Ha szeretnétek arra is megcsinálom majd a CSS-t. Adrián
+
+UPDATE:Most már vágom ezt a Gitet.Nekiállok a JSON-nek. Bence
